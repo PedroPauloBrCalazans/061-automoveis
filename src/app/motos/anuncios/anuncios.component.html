@@ -1,0 +1,22 @@
+<div class="container main-container">
+    
+    <h1><p>Anúncios Motos</p></h1>
+    <hr>
+    
+    <div class="card mb-3" *ngFor="let moto of mapped" style="max-width: 1100px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="/assets/{{ moto.img }}" class="card-img" style="padding: 5px;" alt="">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ moto.nome | titlecase }}</h5>
+                    <p class="card-text">{{ moto.descricaoMoto }}</p>
+                    <b><p class="card-text">Valor: {{ moto.valor  | currency: 'BRL':true:'1.2-2': 'pt' }}</p></b>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-sm">Ver Mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        

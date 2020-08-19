@@ -1,0 +1,46 @@
+.main-container{
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.card-img{
+  border-radius: 10px;
+}
+
+.footer{  
+    height: 50px;
+    text-align: center;
+    
+}
+
+a.navbar-brand{
+  font-family: 'Comic Neue', cursive;
+  font-size: 25px;
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+ul.flex-grow-1{
+  font-size: 17px;
+  
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+  background-color: aliceblue;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+  
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
